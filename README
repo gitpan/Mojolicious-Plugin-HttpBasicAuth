@@ -25,7 +25,7 @@ SYNOPSIS
       }
 
 DESCRIPTION
-    Mojolicious::Plugin::HttpBasicAuth is a implemntation of the
+    Mojolicious::Plugin::HttpBasicAuth is a implementation of the
     Http-Basic-Authentication
 
 OPTIONS
@@ -68,7 +68,7 @@ HELPERS
     Mojolicious::Plugin::HttpBasicAuth implements the following helpers.
 
   basic_auth
-      return unless $self->basic_auth({realm => 'Marges Kitchen'});
+      return unless $self->basic_auth({realm => 'Kitchen'});
 
     All default options can be overwritten in every call.
 
@@ -78,7 +78,9 @@ METHODS
 
   register
       my $route = $plugin->register(Mojolicious->new);
-      my $route = $plugin->register(Mojolicious->new, {realm => 'Fort Knox'});
+      my $route = $plugin->register(Mojolicious->new, {realm => 'Fort Knox', validate => sub {
+          return 0;
+      }});
 
     Register renderer and helper in Mojolicious application.
 
@@ -86,5 +88,5 @@ SEE ALSO
     Mojolicious, Mojolicious::Guides, <http://mojolicio.us>.
 
 AUTHOR
-    Patrick Grämer, <http://graemer.org>.
+    Patrick Grämer, <pgraemer@cpan.org>, <http://graemer.org>.
 
