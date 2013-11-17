@@ -3,6 +3,7 @@ abstract: 'Http-Basic-Authentication implementation for Mojolicious'
 author:
   - 'Patrick Grämer, <pgraemer@cpan.org>, L<http://graemer.org>.'
 build_requires:
+  Mojolicious: 4.57
   Test::Mojo: 0
   Test::More: 0.88
 configure_requires:
@@ -23,8 +24,8 @@ no_index:
     - eg
     - examples
 requires:
-  Mojolicious: 0
+  Mojolicious: 4.57
   perl: 5.008005
-version: 0.05
+version: 0.06
 x_contributors:
   - 'Patrick Grämer <mail@graemer.org>'
