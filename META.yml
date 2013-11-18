@@ -30,6 +30,6 @@ resources:
   bugtracker: https://github.com/pgraemer/Mojolicious-Plugin-HttpBasicAuth/issues
   homepage: https://github.com/pgraemer/Mojolicious-Plugin-HttpBasicAuth
   repository: https://github.com/pgraemer/Mojolicious-Plugin-HttpBasicAuth.git
-version: 0.07
+version: 0.08
 x_contributors:
   - 'Patrick Grämer <mail@graemer.org>'
