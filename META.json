@@ -49,7 +49,18 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.06",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/pgraemer/Mojolicious-Plugin-HttpBasicAuth/issues"
+      },
+      "homepage" : "https://github.com/pgraemer/Mojolicious-Plugin-HttpBasicAuth",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/pgraemer/Mojolicious-Plugin-HttpBasicAuth.git",
+         "web" : "https://github.com/pgraemer/Mojolicious-Plugin-HttpBasicAuth"
+      }
+   },
+   "version" : "0.07",
    "x_contributors" : [
       "Patrick Gr\u00e4mer <mail@graemer.org>"
    ]
