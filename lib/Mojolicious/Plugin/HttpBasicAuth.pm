@@ -4,7 +4,7 @@ use Mojo::Base 'Mojolicious::Plugin';
 use Mojo::ByteStream;
 use Mojo::Util qw{b64_encode b64_decode};
 
-our $VERSION = '0.08';
+our $VERSION = '0.09';
 
 sub register {
     my ($plugin, $app, $user_defaults) = @_;
@@ -162,7 +162,7 @@ Validation callback to verify user. This option is B<mandatory>.
       }
   });
 
-Callback vor invalid requests, default can be seen here. Return values are dispatched to L<Mojolicious::Controller/"respond_to">
+Callback for invalid requests, default can be seen here. Return values are dispatched to L<Mojolicious::Controller/"respond_to">
 
 =head1 HELPERS
 

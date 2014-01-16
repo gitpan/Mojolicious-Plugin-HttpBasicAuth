@@ -69,7 +69,7 @@ OPTIONS
           }
       });
 
-    Callback vor invalid requests, default can be seen here. Return values
+    Callback for invalid requests, default can be seen here. Return values
     are dispatched to "respond_to" in Mojolicious::Controller
 
 HELPERS
