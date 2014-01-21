@@ -2,6 +2,7 @@
 abstract: 'Http-Basic-Authentication implementation for Mojolicious'
 author:
   - 'Patrick Grämer, <pgraemer@cpan.org>, L<http://graemer.org>.'
+  - 'Markus Michel, <mmichel@cpan.org>, L<http://markusmichel.org>.'
 build_requires:
   Mojolicious: 4.57
   Test::Mojo: 0
@@ -30,7 +31,7 @@ resources:
   bugtracker: https://github.com/pgraemer/Mojolicious-Plugin-HttpBasicAuth/issues
   homepage: https://github.com/pgraemer/Mojolicious-Plugin-HttpBasicAuth
   repository: https://github.com/pgraemer/Mojolicious-Plugin-HttpBasicAuth.git
-version: 0.09
+version: 0.10
 x_contributors:
-  - 'pgraemer <mail+bitbucket@graemer.org>'
-  - 'pgraemer <mail+github@graemer.org>'
+  - 'Patrick Grämer <pgraemer@cpan.org>'
+  - 'Markus Michel <mmichel@cpan.org>'

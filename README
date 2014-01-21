@@ -10,7 +10,8 @@ SYNOPSIS
                   my $c         = shift;
                   my $loginname = shift;
                   my $password  = shift;
-                  return 1 if($loginname eq 'Homer' && $password eq 'Marge');
+                  my $realm      = shift;
+                  return 1 if($realm eq 'Springfield' && $loginname eq 'Homer' && $password eq 'Marge');
                   return 0;
               },
               realm => 'Homers Home'
@@ -50,7 +51,8 @@ OPTIONS
                 my $c          = shift;
                 my $loginname  = shift;
                 my $password   = shift;
-                return 1 if($loginname eq 'Homer' && $password eq 'Marge');
+                my $realm      = shift;
+                return 1 if($realm eq 'Springfield' && $loginname eq 'Homer' && $password eq 'Marge');
                 return 0;
           }
       });
@@ -95,6 +97,7 @@ METHODS
 SEE ALSO
     Mojolicious, Mojolicious::Guides, <http://mojolicio.us>.
 
-AUTHOR
+AUTHORS
     Patrick Grämer, <pgraemer@cpan.org>, <http://graemer.org>.
+    Markus Michel, <mmichel@cpan.org>, <http://markusmichel.org>.
 
